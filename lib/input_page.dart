@@ -243,9 +243,8 @@ class RoundIconButton extends StatelessWidget {
 }
 
 class  extends _InputPageState extends State<InputPage> {
-
-  @override
-
+  
+child(
    Color maleColor = inactiveColor;
   Color femaleColor = inactiveColor;
 1 for male and 2 for female
@@ -265,6 +264,6 @@ class  extends _InputPageState extends State<InputPage> {
        } else {
          femaleColor = inactiveColor;
       }
-     }
+     })
    }
 
