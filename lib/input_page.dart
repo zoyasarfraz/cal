@@ -46,7 +46,7 @@ class _InputPageState extends State<InputPage> {
                         : kinactiveColor,
                     cardWidget: iconColumn(
                       icon: Icons.ac_unit_outlined,
-                      label: "Male",
+                      label: "Boy",
                     ),
                   ),
                 ),
@@ -62,7 +62,7 @@ class _InputPageState extends State<InputPage> {
                         : kinactiveColor,
                     cardWidget: iconColumn(
                       icon: Icons.accessibility,
-                      label: "Female",
+                      label: "Girl",
                     ),
                   ),
                 ),
