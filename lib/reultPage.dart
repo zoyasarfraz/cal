@@ -37,12 +37,12 @@ class ResultPage extends StatelessWidget {
                     style: kResultTextStyle,
                   ),
                   Text(
-                    'bmiResult',
+                    'BMIResult',
                     //style: kBMITextStyle,
                   ),
                   Text(
                     'interpretation',
-                    textAlign: TextAlign.center,
+                    textAlign: TextAlign.right,
                     style: kBodyTextStyle,
                   ),
                 ],
