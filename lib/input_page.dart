@@ -180,7 +180,7 @@ class _InputPageState extends State<InputPage> {
                               },
                             ),
                             SizedBox(
-                              width: 10.0,
+                              width: 15.0,
                             ),
                             RoundIconButton(
                               icon: FontAwesomeIcons.minus,
@@ -242,26 +242,29 @@ class RoundIconButton extends StatelessWidget {
   }
 }
 
-/*
-  // Color maleColor = inactiveColor;
-  // Color femaleColor = inactiveColor;
-//1 for male and 2 for female
-//   void upDateColor(Gender gender) {
-//     if (gender == Gender.male) {
-//       if (maleColor == inactiveColor) {
-//         maleColor = activeColor;
-//         femaleColor = inactiveColor;
-//       } else {
-//         maleColor = inactiveColor;
-//       }
-//     }
-//     if (gender == Gender.female) {
-//       if (femaleColor == inactiveColor) {
-//         femaleColor = activeColor;
-//         maleColor = inactiveColor;
-//       } else {
-//         femaleColor = inactiveColor;
-//       }
-//     }
-//   }
- */
+class  extends _InputPageState extends State<InputPage> {
+
+  @override
+
+   Color maleColor = inactiveColor;
+  Color femaleColor = inactiveColor;
+1 for male and 2 for female
+   void upDateColor(Gender gender) {
+     if (gender == Gender.male) {
+       if (maleColor == inactiveColor) {
+         maleColor = activeColor;
+         femaleColor = inactiveColor;
+       } else {
+         maleColor = inactiveColor;
+        }
+     }
+      if (gender == Gender.female) {
+        if (femaleColor == inactiveColor) {
+         femaleColor = activeColor;
+        maleColor = inactiveColor;
+       } else {
+         femaleColor = inactiveColor;
+      }
+     }
+   }
+
