@@ -1,4 +1,4 @@
-import 'package:bmi_pratic_for_london/reultPage.dart';
+import 'package:bmi_calculator/reultPage.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'reUseableCardWidgets.dart';

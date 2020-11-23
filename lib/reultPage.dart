@@ -1,4 +1,4 @@
-import 'package:bmi_pratic_for_london/reUseableCardWidgets.dart';
+import 'package:bmi_calculator/reUseableCardWidgets.dart';
 import 'package:flutter/material.dart';
 import 'bottomButton.dart';
 import 'constantFile.dart';
